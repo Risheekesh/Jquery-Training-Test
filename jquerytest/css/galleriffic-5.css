@@ -1,0 +1,5751 @@
+
+div.content {
+	display: none;
+	clear: both;
+}
+
+div.content a, div.navigation a {
+	text-decoration: none;
+}
+div.content a:hover, div.content a:active {
+	text-decoration: underline;
+}
+
+div.navigation a.pageLink {
+	height: 65px;
+	line-height: 77px;
+}
+
+div.controls {
+	margin-top: 5px;
+	height: 23px;
+}
+div.controls a {
+	padding: 5px;
+}
+div.ss-controls {
+	float: left;
+}
+div.nav-controls {
+	float: right;
+}
+
+div.slideshow-container,
+div.loader,
+div.slideshow a.advance-link {
+	width: 100%; /* This should be set to be at least the width of the largest image in the slideshow with padding */
+}
+
+div.loader,
+div.slideshow a.advance-link,
+div.caption-container {
+	height: 100px; /* This should be set to be at least the height of the largest image in the slideshow with padding */	
+}
+
+div.slideshow-container {
+	position: relative;
+	clear: both;
+	margin: auto;
+	height: 625px;
+}
+
+div.loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('images/loader.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+div.slideshow span.image-wrapper {
+	display: block;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	width: 100%;
+}
+div.slideshow a.advance-link {
+	display: block;
+	line-height: 502px; /* This should be set to be at least the height of the largest image in the slideshow with padding */
+	text-align: center;
+}
+
+div.slideshow a.advance-link:hover,
+div.slideshow a.advance-link:active,
+div.slideshow a.advance-link:visited {
+	text-decoration: none;
+}
+div.slideshow a.advance-link:focus {
+	outline: none;
+}
+
+div.slideshow img {
+	border: 1px solid white;	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+	<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.gallery').featherlightGallery({
+					gallery: {
+						fadeIn: 300,
+						fadeOut: 300
+					},
+					openSpeed:    300,
+					closeSpeed:   300
+				});
+				$('.gallery2').featherlightGallery({
+					gallery: {
+						next: 'next »',
+						previous: '« previous'
+					},
+					variant: 'featherlight-gallery2'
+				});
+			});
+
+}
+div.caption-container {
+	margin: auto;
+	position: relative;
+	margin-top: 30px;
+}
+span.image-caption {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+div.caption-container, span.image-caption {
+	width: 90%;
+}
+
+div.caption {
+	padding: 0 12px;
+}
+
+div.image-title {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+div.image-desc {
+	color: white;
+	line-height: 1.3em;
+	padding-top: 5px;
+}
+div.download {
+	margin-top: 8px;
+}
+div.photo-index {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 0 12px;
+}
+div.navigation-container {
+	float: left;
+	position: relative;
+	left: 50%;
+}
+div.navigation {
+	float: left;
+	position: relative;
+	left: -50%;
+}
+div.navigation a.pageLink {
+	margin: 18px 0px 0px 0px;
+	display: block;
+	position: relative;
+	float: left;
+	width: 30px;
+	
+}
+div .navigation a.imgnext
+{	
+	background: url(frwdarrw.png)center center no-repeat;
+}
+div .navigation a.imgprev
+{
+	background: url(backwrdarrw.png)center center no-repeat;
+}
+}
+
+div.navigation a.pageLink:focus {
+	outline: none;
+}
+
+ul.thumbs {
+	position: relative;
+	float: left;
+	margin-top: 20px;
+	padding: 0;
+}
+ul.thumbs li {
+	float: left;
+	padding: 0;
+	margin: 2px;
+	list-style: none;
+}
+a.thumb {
+	padding: 1px;
+	display: block;
+}
+a.thumb:focus {
+	outline: none;
+}
+ul.thumbs img {
+	border: 1px solid white;
+	height: 55px;
+	width: 80px;
+	display: block;
+}
+div.pagination {
+	clear: both;
+	position: relative;
+	left: -50%;
+}
+div.pagination a, div.pagination span.current, div.pagination span.ellipsis {
+	position: relative;
+	display: block;
+	float: left;
+	margin-right: 2px;
+	padding: 4px 7px 2px 7px;
+	border: 1px solid #ccc;
+}
+div.pagination a:hover {
+	text-decoration: none;
+}
+div.pagination span.current {
+	font-weight: bold;
+}
+div.pagination span.ellipsis {
+	border: none;
+	padding: 5px 0 3px 2px;
+}
+
+div.gallery-gutter {
+	clear: both;
+	padding-bottom: 20px;
+}

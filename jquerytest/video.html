@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+     <link type="text/css" rel="stylesheet" href="css/gallery.css"/>
+     <link rel="stylesheet" href="css/feature-carousel.css" charset="utf-8" />
+     
+    <link href="assets/stylesheets/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/jquery-1.7.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.featureCarousel.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var carousel = $("#carousel").featureCarousel({
+          // include options like this:
+          // (use quotes only for string values, and no trailing comma after last option)
+          // option: value,
+          // option: value
+        });
+
+        $("#but_prev").click(function () {
+          carousel.prev();
+        });
+        $("#but_pause").click(function () {
+          carousel.pause();
+        });
+        $("#but_start").click(function () {
+          carousel.start();
+        });
+        $("#but_next").click(function () {
+          carousel.next();
+        });
+
+          $(".carousel-container").hide();
+
+        $("#gridclick").click(function()
+        {
+          $(".gridgallery").show();
+          $(".carousel-container").hide();
+
+           
+        });
+        $("#galleryclick").click(function()
+        {
+          
+          $(".carousel-container").show();
+          $(".gridgallery").hide();
+        });
+
+
+      });
+        var htmlPlayer = document.getElementsByTagName('video');
+          function pausePlayer() {
+
+        for(var i = 0; i < htmlPlayer.length; i++){
+        htmlPlayer[i].pause();
+         }
+        }
+
+function StartOrStop1(id, caption)
+  {
+
+    var video = document.getElementById("setvideo");
+    this.id=id;
+    var i = document.getElementById(id).src;
+    console.log(i);
+    document.getElementById("setimage").src=i;
+    var t = $(caption).html();
+          $('#txt').html(t); 
+       video.pause();
+      video.src = i;
+      video.play();
+    
+  }
+    </script>
+	<title>music web page</title>
+</head>
+<body>
+<div class="container">
+	<div class="subcontainer" >
+		<div class="header clearfix" >
+			<div class="logo">
+			<img src="img/music.png"/>
+			</div>
+			<div class="music">
+			<img src="img/musictext.png"/>
+			</div>
+			<div class="search-bar">
+				<input type="button" class="btn-icon" ><input type="search" placeholder="search...." style="vertical-align: middle;border:none;">	
+			</div>
+		</div>
+		<div class="navigation-bar clearfix" >
+			<ul>
+                <li ><a href="index.html">About me</a></li>
+                <li ><a href="gallery-view.html">My picture</a></li>
+                <li ><a href="music.html">My music</a></li>
+                <li ><a href="Myfiles.html">My files</a></li>
+                <li class="active"><a href="#">My videos</a></li> 
+            </ul>
+		</div>
+
+    <div class="clearfix">
+        <div class="view-option">
+          <ul>
+            <li id="gridclick"><a href="#GridContainer">Grid</a></li>
+                    <li id="galleryclick"><a href="#GalleryContainer">Gallery</a></li>
+          </ul>
+        </div>
+      </div>
+		<div class="video-gallery">	   
+    <div class="carousel-container" style="display:none;">
+    
+      <div id="carousel">
+        <div class="carousel-feature">
+          <a href="#"><video class="carousel-image" width="500" height="375" controls>
+  <source src="01_Intro.mp4" type="video/mp4">
+</video></a>
+          <p class="carousel-caption" id="caption1">
+              Track : track 1<br>
+            Artist : linkin park<br>
+         Gener: Rock<br>
+          size : 5.3 mb<br>
+         Length: 5.00<br> 
+         rating:<img src="img/star.png" style="width:70px; ">
+          </p>
+        </div>
+        <div class="carousel-feature">
+          <a href="#"><video class="carousel-image" width="500" height="375" controls>
+  <source src="02.mp4" type="video/mp4">
+</video></a>
+          <p class="carousel-caption" id="caption2">
+              Track : track 2<br>
+            Artist : linkin park<br>
+         Gener: Rock<br>
+          size : 5.3 mb<br>
+         Length: 5.00<br> 
+         rating:<img src="img/star.png" style="width:70px; ">
+          </p>
+        </div>
+        <div class="carousel-feature">
+          <a href="#"><video class="carousel-image" width="500" height="375" controls>
+  <source src="03.mp4" type="video/mp4">
+</video></a>
+          <p class="carousel-caption" id="caption3">
+              Track : track 3<br>
+            Artist : linkin park<br>
+         Gener: Rock<br>
+          size : 5.3 mb<br>
+         Length: 5.00<br> 
+         rating:<img src="img/star.png" style="width:70px; ">
+          </p>
+        </div>
+        <div class="carousel-feature">
+          <a href="#"><video class="carousel-image" width="500" height="375" controls >
+       <source src="02.mp4" type="video/mp4">
+      </video></a>
+    <div class="carousel-caption">
+            <p>Track : track 1</p>
+        <p> Artist : linkin park</p>
+      <p> Gener: Rock</p>
+        <p> size : 5.3 mb</p>
+      <p>Length: 5.00</p> 
+        <p>rating:4 star </p>
+          </div>
+        </div>
+        <div class="carousel-feature">
+          <a href="#"><video class="carousel-image" width="500" height="375" controls>
+       <source src="02.mp4" type="video/mp4">
+      </video></a>
+          <div class="carousel-caption">
+            <p>Track : track 1</p>
+  			<p>	Artist : linkin park</p>
+ 			<p>	Gener: Rock</p>
+    		<p>	size : 5.3 mb</p>
+			<p>Length: 5.00</p> 
+ 				<p>rating:4 star </p>
+          </div>
+        </div>
+      </div>
+    
+      <div id="carousel-left" onclick="pausePlayer();"><img src="css/backwrdarrw.png"></div>
+      <div id="carousel-right" onclick="pausePlayer();"><img src="css/frwdarrw.png"></div>
+    </div>
+
+
+    <div class="gridgallery">
+        <div class="audioplayer clearfix">
+          <video id="setvideo" src="02.mp4" class="carousel-image" width="350" height="350" style="float:left" controls>
+        
+          </video>
+        <div style="float:right; margin-top:30px; ">
+        <video id="setimage" src="02.mp4" alt="caption" style="height: 150px;float: left;width: 150px; margin-right: 15px;" ></video>
+           <div style="float:right;color:white;width: 120px;" id="txt"> 
+            </div>
+        </div>
+    </div>
+        
+        <div class="row">
+        <div class="col-lg-2">
+          <a class="thumbnail gallery2 setattr" href="#">
+            <video id="video1" class="carousel-image"  height="100" src="01_Intro.mp4" onclick="StartOrStop1(id,caption1)">
+            </video>
+          </a>
+        </div>
+        <div class="col-lg-2">
+          <a class="thumbnail gallery2 setattr" href="#">
+            <video id="video2" class="carousel-image"  height="100" src="02.mp4" onclick="StartOrStop1(id,caption2)" >
+            </video>
+          </a>
+        </div>
+        <div class="col-lg-2">
+          <a class="thumbnail gallery2 setattr" href="#">
+            <video id="video3" class="carousel-image"  height="100" src="03.mp4" onclick="StartOrStop1(id,caption3)" >
+            </video>
+          </a>
+        </div>
+        <div class="col-lg-2">
+          <a class="thumbnail gallery2 setattr" href="#">
+            <video id="video4" class="carousel-image"  height="100" src="01_Intro.mp4" onclick="StartOrStop1(id,caption1)">
+            </video>
+          </a>
+        </div>
+        <div class="col-lg-2">
+          <a class="thumbnail gallery2 setattr" href="#">
+            <video id="video5" class="carousel-image"  height="100" src="02.mp4" onclick="StartOrStop1(id,caption2)">
+            </video>
+          </a>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-lg-2">
+          <a class="thumbnail gallery2 setattr" href="#">
+            <video id="video6" class="carousel-image"  height="100" src="03.mp4" onclick="StartOrStop1(id,caption3)">
+            </video>
+        </div>
+        </div>
+
+
+    </div>
+
+
+</div>
+<div class="footer">
+			<div class="blank">&nbsp;</div>
+			<div class="minilogo ">
+				<div><img src="img/musicfooter.png" alt="minilogo" />
+				<span class="copyright">copyright &copy; 2012 My Website . All right reserved</span></div>
+
+				<div class="dockmenu">
+				<img class="hoverImages" src="img/twitter.png" />
+     			<img class="hoverImages" src="img/facebook.png" />
+     			<img class="hoverImages" src="img/digg.png" />
+     			<img class="hoverImages" src="img/linked.png" />
+     			<img class="hoverImages" src="img/stumble.png" />
+     			<img class="hoverImages" src="img/twitter-icon.png" />	
+     			</div>
+			</div>
+
+			<div class="terms">
+					<span>EULA &nbsp;</span>
+					<span>Terms of service &nbsp;</span>
+					<span style="border:none;"> privacy policy</span>
+			</div>
+		
+
+		</div>
+
+	</div>
+</div>
+</body>
+</html>
